@@ -11,6 +11,7 @@ The API will be based on the data from jsonplaceholder.com. It will aggregate th
 ```json
 [{
 	"userId": 1,
+	"name": "Leanne Graham",
 	"username": "Bret",
 	"email": "Sincere@april.biz",
 	"albums": [{
@@ -29,6 +30,7 @@ The API will be based on the data from jsonplaceholder.com. It will aggregate th
 ```json
 {
 	"userId": 1,
+	"name": "Leanne Graham",
 	"username": "Bret",
 	"email": "Sincere@april.biz",
 	"albums": [{
