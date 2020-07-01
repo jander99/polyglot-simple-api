@@ -54,7 +54,6 @@ public class JsonPlaceholderService {
                 .filter(p -> p.albumId.equals(jpAlbum.getId()))
                 .map(p -> Photo
                     .builder()
-                    .title(p.getTitle())
                     .photoId(p.getId())
                     .title(p.getTitle())
                     .url(p.getUrl())
